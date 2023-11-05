@@ -51,24 +51,63 @@
       <!-- ==== / mouse cursor drag end ==== -->
       <!-- ==== header start ==== -->
       <header class="header">
-         <div class="primary-navbar secondary--navbar">
+         <div class="primary-navbar cmn-nav">
             <div class="container">
                <div class="row">
                   <div class="col-12">
                      <nav class="navbar p-0">
                         <div class="navbar__logo">
                            <a href="index.html" aria-label="go to home">
-                              <img src="assets/images/One-Ok-Studio.png" alt="Image" style="height: 20px;">
+                              <img src="assets/images/One-Ok-Studio.png" style="height: 30px;" alt="Image">
                            </a>
                         </div>
+                        <div class="navbar__menu">
+                           <ul >
+                              <li class="navbar__item nav-fade">
+                                 <a href="index.html">Home</a>
+                              </li>
+                              <li class="navbar__item nav-fade">
+                                 <a href="about-us.html">About Us</a>
+                              </li>
+                              <li class="navbar__item nav-fade">
+                                 <a href="our-services.html">Services</a>
+                              </li>
+                              <li class="navbar__item nav-fade">
+                                 <a href="our-projects.html">Our Project</a>
+                              </li>
+                           </ul>
+                        </div>
                         <div class="navbar__options">
-                           <button class="open-offcanvas-nav d-flex" aria-label="toggle mobile menu"
-                              title="open offcanvas menu"></button>
+                           <div class="navbar__mobile-options d-none d-sm-flex">
+                              <a href="mailto:oneokstudio.id@gmail.com" class="btn btn--secondary">Let's Talk</a>
+                           </div>
+                           <button class="open-mobile-menu d-flex d-xl-none" aria-label="toggle mobile menu">
+                              <i class="fa-light fa-bars-staggered"></i>
+                           </button>
                         </div>
                      </nav>
                   </div>
                </div>
             </div>
+            <!-- ==== mobile menu start ==== -->
+            <div class="mobile-menu">
+               <nav class="mobile-menu__wrapper">
+                  <div class="mobile-menu__header nav-fade">
+                     <div class="logo">
+                        <a href="index.html">
+                           <img src="assets/images/logo.png" alt="" title="">
+                        </a>
+                     </div>
+                     <a href="javascript:void(0)" aria-label="close mobile menu" class="close-mobile-menu">
+                        <i class="fa-light fa-xmark-large"></i>
+                     </a>
+                  </div>
+                  <div class="mobile-menu__list"></div>
+                  <div class="mobile-menu__options d-flex d-sm-none justify-content-center nav-fade"></div>
+               </nav>
+            </div>
+            <div class="mobile-menu__backdrop"></div>
+            <!-- ==== / mobile menu end ==== -->
          </div>
       </header>
       <!-- ==== / header end ==== -->
@@ -202,10 +241,12 @@
                                  agency in Indonesia
                               </h2>
                               <div class="paragraph">
-                                 <p>Bring to the table win-win survival strategies to ensure proactive domination. At
-                                    the end of the day, going forward, a new normal that has evolved from generation on
-                                    the runway heading towards a streamlined cloud solution going forward porttitor
-                                    dictum sapien.</p>
+                                 <p>We are a digital creative agency based in Indonesia. With a wide range of 
+                                    creative talents and technical expertise, we are committed to delivering 
+                                    innovative and creative digital solutions. We have in-depth knowledge of the 
+                                    latest technology trends and a strong understanding of the local market. 
+                                    With an ever-flaring passion, we aim to deliver outstanding results and 
+                                    create unforgettable digital experiences for our clients.</p>
                               </div>
                               <div class="skill-wrap">
                                  <div class="skill-bar-single">
